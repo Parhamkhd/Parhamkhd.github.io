@@ -1,4 +1,4 @@
-function myFunction(x) {
+function hamIcon(x) {
     x.classList.toggle("change");
     let y = document.getElementsByClassName('main-menu-items')[0].style.display;
     if(y == ''){
