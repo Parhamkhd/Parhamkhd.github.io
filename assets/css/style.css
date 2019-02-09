@@ -193,6 +193,12 @@
     transform: rotate(45deg) translate(-8px, -8px);
   }
 /*ham icon end*/
+
+
+
+
+
+
 /*enroll page styling*/
 
 
@@ -238,10 +244,132 @@
     margin-top: 5px;
 }
 
+/*enrolling forms*/
+
+.group-enroll{
+    width: 40%;
+    margin: 10px auto;
+    height: 600px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    
+}
 
 
 
 
+#group-enroll-title{
+    text-align: center;
+    color: #444444;
+}
+
+
+#group-form{
+    margin-top: 10px;
+    text-align: center;
+    direction: rtl;
+    color:#444444;
+
+}
+
+input {
+    width: 10%;
+    display: block;
+  }
+
+  input[type=text] {
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+  input[type=number] {
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+    
+  }
+
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+  }
+
+  input[type=email] {
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+  input[type=submit] {
+      color:white;
+    background: #51ACAF;
+    width: 20%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 2px;
+    cursor: pointer;
+  }
+
+
+
+  
+  select{
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+
+
+
+
+#form-submit-btn{
+    margin-top: 5px;
+    background-color: #53B9BE;
+    color:white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+#form-button-image{
+    display: table-cell;
+    vertical-align: middle;
+    width:15px;
+    height: 15px;
+    margin-left: 10px;
+    float:right;
+    margin-top: 2px;
+}
+
+
+
+/*enrolling forms end*/
 
 /*NormalCss End*//*---------------------------------------------------------*/
 /*---------------------------------------------------------*/
@@ -293,6 +421,17 @@ media section
     
     
 }
+.group-enroll{
+    width: 80%;
+    margin: 20px auto;
+    height: 600px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    
+}
 }
 
 
@@ -332,6 +471,17 @@ media section
             padding-top: 12px;
         
             
+            
+        }
+        .group-enroll{
+            width: 90%;
+            margin: 20px auto;
+            height: 600px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+            box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
             
         }
 }
@@ -508,6 +658,20 @@ media section
     transform: rotate(45deg) translate(-8px, -8px);
     }
     /*ham icon end*/
+
+
+
+    .group-enroll{
+        width: 90%;
+        margin: 20px auto;
+        height: 600px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+        box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+        
+    }
 
 }
 
@@ -701,5 +865,98 @@ transform: rotate(-45deg) translate(-9px, 6px);
 transform: rotate(45deg) translate(-8px, -8px);
 }
 /*ham icon end*/
+
+
+
+/*enroll page styling*/
+
+
+#enroll-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#enroll-text{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.main-enroll{
+  margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.enroll-btn{
+    display: inline-block;
+    background: #54B9BF;
+    margin:0px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+#indie-img{
+    margin-top: 5px;
+}
+
+/*enrolling forms*/
+
+.group-enroll{
+    width: 90%;
+    margin: 20px auto;
+    height: 600px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
+    
+}
+
+
+
+
+#group-enroll-title{
+    text-align: center;
+}
+
+
+#group-form{
+    margin-top: 20px;
+    text-align: center;
+    direction: rtl;
+
+}
+
+input {
+    width: 10%;
+    display: block;
+  }
+
+  input[type=text] {
+    width: 50%;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+
+/*enrolling forms end*/
+
+
+
+
 
 }
