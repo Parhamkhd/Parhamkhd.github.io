@@ -46,6 +46,7 @@
     float: right;
     margin-right: 180px;
     padding-top: 12px;
+    display: block;
     
 }
 
@@ -727,15 +728,28 @@ media section
 
 
     .main-menu-items{
-        float: right;
-        margin-right: 50px;
-        padding-top: 12px;
         display: none;
-        
     }
 
 
 
+    #main-menu-ul{
+        margin-top: 30px;
+        margin-right:50px;
+        text-align: center;
+        padding-right: 50px;
+        list-style-type: none;
+        
+    }
+    
+    .main-menu-links{
+        margin-top:10px;
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid #ccc;
+        width: 100%
+    
+    }
 /*Clock Mobile*/
 #timer-text{
     margin-top: 40px;
