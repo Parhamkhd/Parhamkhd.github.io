@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TNB Club</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1 id="logo"><a id="link-logo" href="">TNB Club</a></h1>
+
+        <nav class="main-menu-items">
+            <ul  id="main-menu-ul">
+                <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                <li class="main-menu-links"> <a href="">پروژه ها</a> </li>
+                <li class="main-menu-links"> <a href="">درباره</a> </li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger icon HTML -->
+        <div class="container " onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+   <h1 id="enroll-title">ثبت نام</h1>
+
+
+<main class="main-enroll">
+    
+
+
+        <h3 dir="rtl"id="enroll-text">
+            لطفا طریقه‌ی شرکت خود را در مسابقه مشخص نمایید:
+        </h3>
+
+
+        <div class="enroll-btn projlink" id="group" onmouseover="addAnimation()" onmouseleave ="removeAnimation()">
+            
+                <img src="assets\images\team.png" alt="" id="indie-img">
+                <p>گروهی</p>
+             
+        </div>
+    
+
+    
+        <div class="enroll-btn" id="indivisual" onmouseover="addAnimation2()" onmouseleave ="removeAnimation2()">
+                <img src="assets\images\man.png" alt="" id="indie-img">
+                <p>انفرادی</p>
+        </div>
+    
+
+</main>
+
+
+<script src="assets\scripts\animations.js"></script>
+
+<script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+    </script>
+</body>
+</html>

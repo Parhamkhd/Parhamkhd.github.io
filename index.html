@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TNB Club</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+            <h1 id="logo"><a id="link-logo" href="">TNB Club</a></h1>
+
+           
+            <nav class="main-menu-items">
+                <ul  id="main-menu-ul">
+                    <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                    <li class="main-menu-links"> <a href="">پروژه ها</a> </li>
+                    <li class="main-menu-links"> <a href="">درباره</a> </li>
+                </ul>
+            </nav>
+<!-- Hamburger icon HTML -->
+            <div class="container " onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            
+    </header>
+    
+    <main id="main-content">
+    
+        <h1 id="events">:رویداد های پیش رو</h1>
+    
+        <h1 id="current-event">اولین دوره مسابقه‌ی برنامه نویسی دانشجویی</h1>
+
+        <h2 id="current-event">دانشگاه تهران شمال</h2>
+
+    <button onclick="location.href='enroll.html'"id="enroll">ثبت نام</button>
+
+
+    <h4 id="timer-text">:مهلت باقی مانده برای ثبت نام</h4>
+
+    <div class="clock">
+
+        <div class="dhm"id="days">
+
+            <p id="days-num"></p>
+
+            <p id="clock-title">روز</p>
+        </div>
+:
+
+        <div class="dhm" id="hours">
+
+            <p id="hours-num"></p>
+
+            <p id="clock-title">ساعت</p>
+        </div> 
+:
+        <div class="dhm" id="minutes">
+
+            <p id="minutes-num"></p>
+
+            <p id="clock-title">دقیقه</p>
+
+        </div>
+:
+        <div class="dhm" id="seconds">
+
+            <p id="seconds-num"></p>
+            
+            <p id="clock-title">ثانیه</p>
+    
+            </div>
+
+    </div>
+
+
+    </main>
+
+
+
+
+    <script src="assets/scripts/clock.js"></script>
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+
+
+
+
+        window.onresize = function() {
+    console.log(window.innerWidth);
+  }
+    </script>
+</body>
+</html>
