@@ -35,7 +35,9 @@
     clear: both;
 }
 
-
+.main-menu-items{
+    display: inline-block;
+}
 
 #logo {
     margin-left: 180px;
@@ -433,6 +435,10 @@ media section
         float: left;
     }
 
+    .main-menu-items{
+        display: inline-block;
+    }
+
 
 .main-menu-items{
     float: right;
@@ -484,7 +490,10 @@ media section
             margin-left: 20px;
             float: left;
         }
-    
+
+        .main-menu-items{
+            display: inline-block;
+        }
     
         .main-menu-items{
             float: right;
@@ -543,12 +552,14 @@ media section
         float: left;
     }
 
+    .main-menu-items{
+        display: none;
+    }
 
     .main-menu-items{
         float: right;
         margin-right: 50px;
         padding-top: 12px;
-        display: none;
         
     }
 
