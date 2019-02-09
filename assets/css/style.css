@@ -894,9 +894,9 @@ transform: rotate(45deg) translate(-8px, -8px);
 .enroll-btn{
     display: inline-block;
     background: #54B9BF;
-    margin:0px 50px;
-    width: 200px;
-    height: 200px;
+    margin:0px 10px;
+    width: 140px;
+    height: 140px;
     border-radius: 5px;
     -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
