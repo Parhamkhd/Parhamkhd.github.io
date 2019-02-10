@@ -12,7 +12,17 @@
 }
 
 
+footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(83, 83, 83 ,0.8);
+        color: white;
+        text-align: center;
+        font-size: 10px;
 
+}
 
 
 /* header{
@@ -84,6 +94,11 @@
 
 .main-menu-links a {
     color: black;
+    text-decoration: none;
+  }
+
+  .main-menu-links a:hover {
+    color: rgb(62, 185, 150);
     text-decoration: none;
   }
 
@@ -288,7 +303,7 @@ input {
 
   input[type=text] {
     width: 50%;
-    margin: 10px auto;
+    margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid #4BE4B8;
@@ -299,7 +314,7 @@ input {
   /*INPUT TYPE NUMBER*/
   input[type=number] {
     width: 50%;
-    margin: 10px auto;
+    margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid #4BE4B8;
@@ -329,7 +344,18 @@ input {
 
   input[type=email] {
     width: 50%;
-    margin: 10px auto;
+    margin: 5px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+  
+  input[type=password] {
+    width: 50%;
+    margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid #4BE4B8;
@@ -354,7 +380,7 @@ input {
   select{
     display: block;
     width: 50%;
-    margin: 10px auto;
+    margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
     border: 2px solid #4BE4B8;
@@ -367,7 +393,7 @@ input {
 
 
 #form-submit-btn{
-    margin-top: 5px;
+    margin-top: 10px;
     background-color: #53B9BE;
     color:white;
     text-decoration: none;
