@@ -1018,8 +1018,8 @@ transform: rotate(45deg) translate(-8px, -8px);
 
 }
 
-input {
-    width: 10%;
+/* input {
+    /* width: 10%;
     display: block;
   }
 
@@ -1027,15 +1027,159 @@ input {
     width: 50%;
     margin: 10px auto;
     box-sizing: border-box;
+  } 
+
+enrolling forms end */
+
+/*inputs mobile*/
+
+
+#group-form{
+    margin-top: 0px;
+    text-align: center;
+    direction: rtl;
+    color:#444444;
+
+}
+
+input {
+    width: 10%;
+    display: block;
   }
 
-/*enrolling forms end*/
+  input[type=text] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
 
 
+  /*INPUT TYPE NUMBER*/
+  input[type=number] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+    
+  }
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type=number] {
+      -moz-appearance:textfield;
+  }
+
+  /*END TYPE NUMBER*/
+
+
+
+
+
+
+
+
+
+  input[type=email] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+  
+  input[type=password] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+  input[type=submit] {
+      color:white;
+    background: #51ACAF;
+    width: 20%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 2px;
+    cursor: pointer;
+  }
+
+
+
+  
+  select{
+    display: block;
+    width: 45%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+
+
+
+
+#form-submit-btn{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #53B9BE;
+    color:white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+#form-button-image{
+    display: table-cell;
+    vertical-align: middle;
+    width:15px;
+    height: 15px;
+    margin-left: 10px;
+    float:right;
+    margin-top: 2px;
+}
 
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1290,7 +1434,7 @@ transform: rotate(45deg) translate(-8px, -8px);
 
 
 
-#group-enroll-title{
+/* #group-enroll-title{
     text-align: center;
 }
 
@@ -1300,9 +1444,9 @@ transform: rotate(45deg) translate(-8px, -8px);
     text-align: center;
     direction: rtl;
 
-}
+} */
 
-input {
+/* input {
     width: 10%;
     display: block;
   }
@@ -1311,11 +1455,141 @@ input {
     width: 50%;
     margin: 10px auto;
     box-sizing: border-box;
-  }
+  } */
 
 /*enrolling forms end*/
 
+/*inputs mobile*/
 
+
+#group-form{
+    margin-top: 0px;
+    text-align: center;
+    direction: rtl;
+    color:#444444;
+
+}
+
+input {
+    width: 10%;
+    display: block;
+  }
+
+  input[type=text] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+  /*INPUT TYPE NUMBER*/
+  input[type=number] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+    
+  }
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type=number] {
+      -moz-appearance:textfield;
+  }
+
+  /*END TYPE NUMBER*/
+
+
+
+
+
+
+
+
+
+  input[type=email] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+  
+  input[type=password] {
+    width: 45%;
+    margin: 2px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+  input[type=submit] {
+      color:white;
+    background: #51ACAF;
+    width: 20%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 2px;
+    cursor: pointer;
+  }
+
+
+
+  
+  select{
+    display: block;
+    width: 45%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #4BE4B8;
+    padding: 2px;
+  }
+
+
+
+
+
+
+#form-submit-btn{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #53B9BE;
+    color:white;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+
+#form-button-image{
+    display: table-cell;
+    vertical-align: middle;
+    width:15px;
+    height: 15px;
+    margin-left: 10px;
+    float:right;
+    margin-top: 2px;
+}
 
 
 
