@@ -974,7 +974,7 @@ transform: rotate(45deg) translate(-8px, -8px);
 
 .previous-page{
     position: absolute;
-    font-size: 10px;
+    font-size: 9px;
     background-color: #f1f1f1;
     color: black;
     text-decoration: none;
