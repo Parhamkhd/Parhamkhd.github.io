@@ -287,9 +287,32 @@ box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
 
 
 
+.previous-page{
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20%;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+
+.previous-page:hover{
+background-color: #ddd;
+color: black;
+
+}
+
+
+
+
+
 #group-enroll-title{
     text-align: center;
     color: #444444;
+    margin-top: 2px;
 }
 
 
@@ -947,6 +970,21 @@ transform: rotate(45deg) translate(-8px, -8px);
 /*enroll page styling*/
 
 
+
+
+.previous-page{
+    position: absolute;
+    font-size: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20%;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+
+
 #enroll-title{
     text-align: center;
     margin-top: 10px;
@@ -1202,8 +1240,8 @@ input {
 
 
 @media only screen and (max-width: 325px) {
-/* 
-    body {
+
+    /* body {
 
       background-color: cyan;
 
@@ -1373,6 +1411,23 @@ transform: rotate(45deg) translate(-8px, -8px);
 
 
 /*enroll page styling*/
+
+
+.previous-page{
+    position: absolute;
+    font-size: 5px;
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20%;
+    margin-top: 18px;
+    margin-left: 0px;
+}
+
+
+
+
 
 
 #enroll-title{
