@@ -1,6 +1,6 @@
 @font-face{
     font-family: IRANSans;
-    src: url(fonts/IRANSansWeb.ttf)
+    src: url('fonts/IRANSansWeb.ttf')
 }
 
 
@@ -10,7 +10,6 @@
     box-sizing: border-box;
     font-family: IRANSans;
 }
-
 
 footer{
         position: fixed;
@@ -25,18 +24,24 @@ footer{
 }
 
 
-/* header{
-    border-bottom: 5px solid red;
 
-} */
+.landingimage{
+    background: url('../images/mainbackground.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+background: #FAFAFB;
+}
 
 .main-header{
-    padding: 10px;
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid grey;
     -webkit-box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
     -moz-box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
     box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
-
 }
 
 .main-header::after{
@@ -49,17 +54,20 @@ footer{
     display: inline-block;
 }
 
-#logo {
+#logo{
     margin-left: 180px;
     float: left;
     color:black;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .main-menu-items{
     float: right;
     margin-right: 180px;
-    padding-top: 12px;
-    display: block;
+    margin-top: 22px;
+    display: inline-block;
+    font-size: 15px;
     
 }
 
@@ -83,10 +91,13 @@ footer{
 #link-logo{
     text-decoration: none;
     color: black;
+
 }
 
 #link-logo:visited{
     color: black;
+
+    
 }
 
 
@@ -95,6 +106,7 @@ footer{
 .main-menu-links a {
     color: black;
     text-decoration: none;
+    
   }
 
   .main-menu-links a:hover {
@@ -108,11 +120,52 @@ footer{
 } */
 
 
-  #main-content {
-    margin-top:50px;
-    text-align: center;
+
+
+
+
+
+
+
+
+
+/*Carousel*/
+
+
+.item{
+    height: 90vh;
+}
+
+
+
+
+
+
+
+
+/*Carousel End*/
+
+
+.eventsGen{
+    background-color:rgba(0, 0, 0, 0.5);
+
+    padding-bottom: 5000px;
+    padding-top: 40px;
 
 }
+
+
+  #main-content {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 /*events*/
@@ -123,19 +176,33 @@ footer{
 
 #current-event{
     margin-top: 20px;
-    color: #444444;
+    /* color: #444444; */
+    color: white;
+}
+
+
+
+
+.specpadding{
+    padding-bottom: 40px;
 }
 
 /*events END*/
 
+
+
+
+
 #enroll{
-    margin-top: 20px;
-    background-color: #53B9BE;
+    margin-top:20px;
+    /* background-color: #53B9BE; */
+    background-color: rgb(32, 230, 115);
     color:white;
+    font-size: 15px;
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 10px 60px;
     border: none;
-    border-radius: 2px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -143,35 +210,63 @@ footer{
     background-color: rgb(19, 122, 128) !important;
 }
 
+.timer{
+    text-align: center;
+    margin-top:60px; 
+    }
+
 #timer-text{
-    margin-top: 40px;
+    margin-top: 25px;
+    color: white;
+    font-size: 13px;
 }
 
 
 .clock{
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
-.dhm{
-    display: block;
-    width: 120px;
-    height: 120px;
-    border:  2px solid #4BE4B8;
-    border-radius: 4px;
-    margin: 10px;
-    color: #4BE4B8;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: bold;
+.clock-part{
     display: inline-block;
 
 }
 
-.dhm p{
-  margin-top: 30px;
+
+.clock-part-title{
+    color: white;
 }
 
+.dhm{
+    width: 80px;
+    height: 80px;
+    border:  2px solid white;
+    border-radius: 4px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.numz{
+    /* color: #4BE4B8; */
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    padding-top: 12px;
+}
+
+
+/* .timer-buttom{
+    color: white;
+    margin-right: 62px;
+}
+
+.timer-buttom ul li{
+    display: inline-block;
+    padding-left:70px
+} */
 
 
 
@@ -194,7 +289,7 @@ footer{
         display: none;
 }
 
-.container {
+.ham-container  {
     display: none;
     cursor: pointer;
   }
@@ -716,7 +811,7 @@ media section
 /*ham-icon*/
 
 
-.container {
+.ham-container {
     display: inline-block;
     cursor: pointer;
     float: right;
@@ -936,7 +1031,7 @@ media section
   /*ham-icon*/
 
 
-.container {
+.ham-container {
 display: inline-block;
 cursor: pointer;
 float: right;
@@ -1377,7 +1472,7 @@ input {
   /*ham-icon*/
 
 
-.container {
+.ham-container {
 display: inline-block;
 cursor: pointer;
 float: right;
