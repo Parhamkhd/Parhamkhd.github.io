@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TNB Club</title>
+    <link rel="shortcut icon" href="assets/images/iau.png">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <header class="main-header-css">
+
+        <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
+
+        <!-- Hamburger icon HTML  -->
+        <div class="ham-container" onclick="hamIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <nav class="main-menu-items">
+            <ul id="main-menu-ul">
+                <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
+                <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="landingimage"id="main-content">
+
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="eventsGen">
+                        <h1 id="events">:رویداد‌های پیش رو</h1>
+
+                        <h1 id="current-event">اولین دوره مسابقه‌ی برنامه‌نویسی دانشجویی</h1>
+
+                        <h2 class='specpadding' id="current-event">دانشگاه آزاد اسلامی - واحد تهران شمال</h2>
+
+                        <button onclick="location.href='enroll.html'" id="enroll">ثبت نام</button>
+
+                        <div class="timer">
+
+                            <h4 id="timer-text">:مهلت باقی‌مانده برای ثبت نام</h4>
+
+                            <div class="clock">
+
+                                <div class="clock-part">
+                                    <div class="dhm" id="days">
+
+                                        <p class="numz" id="days-num"></p>
+
+                                    </div>
+                                    <p class=clock-part-title>روز</p>
+
+                                </div>
+
+                                <div class="clock-part">
+                                    <div class="dhm" id="hours">
+
+                                        <p class="numz" id="hours-num"></p>
+
+                                    </div>
+
+                                    <p class=clock-part-title>ساعت</p>
+                                </div>
+
+                                <div class="clock-part">
+                                    <div class="dhm" id="minutes">
+
+                                        <p class="numz" id="minutes-num"></p>
+
+                                    </div>
+                                    <p class=clock-part-title>دقیقه</p>
+
+                                </div>
+
+                                <div class="clock-part">
+                                    <div class="dhm" id="seconds">
+
+                                        <p class="numz" id="seconds-num"></p>
+
+                                    </div>
+                                    <p class=clock-part-title>ثانیه</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+
+                    <div class="eventsGen">
+                        <h1 id="events">:رویداد‌های پیش رو</h1>
+
+                        <h1 id="current-event">اولین دوره مسابقه‌ی برنامه‌نویسی دانشجویی</h1>
+
+                        <h2 id="current-event">دانشگاه آزاد اسلامی - واحد تهران شمال</h2>
+
+                        <button onclick="location.href='enroll.html'" id="enroll">ثبت نام</button>
+
+                    </div>
+                </div>
+
+                <div class="item">
+
+                    <div class="eventsGen">
+                        <h1 id="events">:رویداد‌های پیش رو</h1>
+
+                        <h1 id="current-event">اولین دوره مسابقه‌ی برنامه‌نویسی دانشجویی</h1>
+
+                        <h2 id="current-event">دانشگاه آزاد اسلامی - واحد تهران شمال</h2>
+
+                        <button onclick="location.href='enroll.html'" id="enroll">ثبت نام</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+    </main>
+
+    <!-- <footer>
+        Copyright © 2019 TNBClub
+    </footer> -->
+
+    <script src="assets/scripts/clock.js"></script>
+    <script src="assets/scripts/hamicon.js"></script>
+
+    <script>
+
+window.onresize = function(event) {
+	console.log("x: " + window.innerWidth+"      y: " + window.innerHeight);
+}
+    </script>
+</body>
+
+</html>
