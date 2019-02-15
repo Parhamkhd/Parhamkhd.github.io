@@ -210,6 +210,10 @@ background: #FAFAFB;
     background-color: rgb(19, 122, 128) !important;
 }
 
+#enroll:focus{
+    outline:none;
+}
+
 .timer{
     text-align: center;
     margin-top:60px; 
