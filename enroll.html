@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,83 +8,63 @@
     <title>TNB Club</title>
     <link rel="shortcut icon" href="assets/images/iau.png">
 
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-
 </head>
+
 <body>
 
     <header class="main-header-css">
         <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
 
-                <!-- Hamburger icon HTML -->
-                <div class="ham-container " onclick="hamIcon(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
+        <!-- Hamburger icon HTML -->
+        <div class="ham-container " onclick="hamIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
 
         <nav class="main-menu-items">
-            <ul  id="main-menu-ul">
-              <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
-              <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
-              <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
+            <ul id="main-menu-ul">
+                <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
+                <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
             </ul>
         </nav>
 
     </header>
 
-
+<div class="enroll-wrap">
+    
     <h1 id="enroll-title">ثبت نام در مسابقه</h1>
 
+    <main class="main-enroll">
 
-<main class="main-enroll">
-
-
-
-        <h3 dir="rtl"id="enroll-text">
+        <h3 dir="rtl" id="enroll-text">
             لطفا طریقه‌ی شرکت خود را در مسابقه مشخص نمایید:
         </h3>
 
+        <div class="enroll-btn" id="group" onclick="location.href='group.html'" onmouseover="addAnimation()" onmouseleave="removeAnimation()">
 
-        <div class="enroll-btn" id="group" onclick="location.href='group.html'" onmouseover="addAnimation()" onmouseleave ="removeAnimation()">
-
-                <img src="assets\images\team.png" alt="" id="indie-img">
-                <p>گروهی</p>
+            <img src="assets\images\team.png" alt="" id="indie-img">
+            <p>گروهی</p>
 
         </div>
 
-
-
-        <div class="enroll-btn" id="indivisual" onclick="location.href='indivisual.html'" onmouseover="addAnimation2()" onmouseleave ="removeAnimation2()">
-                <img src="assets\images\man.png" alt="" id="indie-img">
-                <p>انفرادی</p>
+        <div class="enroll-btn" id="indivisual" onclick="location.href='indivisual.html'" onmouseover="addAnimation2()" onmouseleave="removeAnimation2()">
+            <img src="assets\images\man.png" alt="" id="indie-img">
+            <p>انفرادی</p>
         </div>
 
-
-</main>
-
-
-<script src="assets\scripts\animations.js"></script>
-<script src="assets/scripts/hamicon.js"></script>
-
-
-
-<script>
-
-window.onresize = function(event) {
-	console.log("x: " + window.innerWidth+"      y: " + window.innerHeight);
-}
-
-</script>
+    </main>
+</div>
+    <script src="assets\scripts\animations.js"></script>
+    <script src="assets/scripts/hamicon.js"></script>
 </body>
-
 
 </html>

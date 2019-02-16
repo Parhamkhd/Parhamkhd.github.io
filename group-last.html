@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,84 +12,76 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header class="main-header-css">
-            <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
+        <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
 
-           <!-- Hamburger icon HTML -->
-           <div class="ham-container " onclick="hamIcon(this)">
+        <!-- Hamburger icon HTML -->
+        <div class="ham-container " onclick="hamIcon(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-           </div>
+        </div>
 
-            <nav class="main-menu-items">
-                <ul  id="main-menu-ul">
-                  <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
-                  <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
-                  <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
-                </ul>
-            </nav>
-
+        <nav class="main-menu-items">
+            <ul id="main-menu-ul">
+                <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
+                <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
+            </ul>
+        </nav>
 
     </header>
 
-
     <main class="group-enroll">
-
 
         <h1 id="group-enroll-title">ثبت نام انفرادی</h1>
 
         <form id="group-form" action="">
 
+            <label for="firstname-lable">نام:</label>
+            <input type="text" id="firstname-lable" name="firstname" placeholder="نام">
 
-                <label for="firstname-lable">نام:</label>
-                <input type="text" id="firstname-lable" name="firstname" placeholder="نام">
+            <label for="lastname-lable">نام خانوادگی:</label>
+            <input type="text" name="lastname" placeholder="نام خانوادگی">
 
+            <label for="studentid-lable">شماره دانشجویی:</label>
+            <input type="number" name="student id" placeholder="شماره دانشجویی">
 
-                <label for="lastname-lable" >نام خانوادگی:</label>
-                <input type="text" name="lastname" placeholder="نام خانوادگی">
+            <label for="field-lable">رشته:</label>
+            <select id="field-lable" name="field">
+                <option value="IT"> فناوری اطلاعات </option>
+                <option value="SE"> نرم‌افزار </option>
+                <option value="HE"> سخت‌افزار </option>
+                <option value="AR"> معماری </option>
+                <option value="CO"> عمران </option>
+                <option value="ME"> مکانیک </option>
 
-                <label for="studentid-lable">شماره دانشجویی:</label>
-                <input type="number" name="student id" placeholder="شماره دانشجویی">
+            </select>
 
-                <label for="field-lable" >رشته:</label>
-                    <select id="field-lable" name="field">
-                      <option value="IT">	فناوری اطلاعات	</option>
-                      <option value="SE">	نرم‌افزار	</option>
-                      <option value="HE">	سخت‌افزار	</option>
-                      <option value="AR">	معماری	</option>
-                      <option value="CO">	عمران	</option>
-                      <option value="ME">	مکانیک	</option>
+            <label for="email-lable">ایمیل:</label>
+            <input type="email" name="student email" placeholder="Email" id="email-lable" dir="ltr">
 
-                     </select>
+            <label for="password-lable">رمز:</label>
+            <input type="password" name="password" placeholder="Password" id="password-lable" dir="ltr">
 
-                <label for="email-lable">ایمیل:</label>
-                <input type="email" name="student email" placeholder="Email" id="email-lable" dir="ltr">
+            <label for="passwordrepeat-lable">تکرار رمز:</label>
+            <input type="password" name="passwordrepeat" placeholder="Confirm Password" id="passwordrepeat-lable" dir="ltr">
 
-                <label for="password-lable">رمز:</label>
-                <input type="password" name="password" placeholder="Password" id="password-lable" dir="ltr">
+            <label for="phonenumber-lable">شماره تماس:</label>
+            <input type="number" name="phone number" placeholder="شماره تماس" id="phonenumber-lable">
 
-                <label for="passwordrepeat-lable">تکرار رمز:</label>
-                <input type="password" name="passwordrepeat" placeholder="Confirm Password" id="passwordrepeat-lable" dir="ltr">
-
-                <label for="phonenumber-lable">شماره تماس:</label>
-                <input type="number" name="phone number" placeholder="شماره تماس" id="phonenumber-lable">
-
-                <input type="submit" value="اتمام و ثبت نام تیم"id="form-submit-btn">
+            <input type="submit" value="اتمام و ثبت نام تیم" id="form-submit-btn">
         </form>
 
-
     </main>
-
 
     <footer>
         Copyright © 2019 TNBClub
     </footer>
-
 
     <script src="assets/scripts/hamicon.js"></script>
 </body>
