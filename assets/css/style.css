@@ -8,6 +8,8 @@
     box-sizing: border-box;
     font-family: IRANSans;
 }
+
+
 footer{
     position: fixed;
     left: 0;
@@ -109,7 +111,6 @@ body{
     text-align: center;
     display: block;
     width: 100%;
-    height: 100%;
 
 }
 
@@ -279,9 +280,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 10px 5px 0px rgba(207, 207, 207, 0.75);
-    -moz-box-shadow: 0px 10px 5px 0px rgba(100, 192, 120, 0.75);
-    box-shadow: 0px 10px 5px 0px rgba(65, 199, 116, 0.75);
+    box-shadow: 0 5px #017e4c;
     cursor: pointer;
     color: white;
 }
@@ -300,7 +299,7 @@ body{
     -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
     box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
 }
-.previous-page{
+/* .previous-page{
     position: absolute;
     background-color: rgb(255, 61, 61);
     color: white;
@@ -309,7 +308,7 @@ body{
     border-radius: 20%;
     margin-top: 8px;
     margin-left: 20px;
-}
+} */
 /* .previous-page:hover{
     background-color: rgb(255, 27, 27);
     color: white;
@@ -318,7 +317,8 @@ body{
 #group-enroll-title{
     text-align: center;
     color: #444444;
-    margin-top: 2px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 #group-form{
     margin-top: 2px;
@@ -330,12 +330,15 @@ input {
     width: 10%;
     display: block;
 }
+input:focus{
+    outline: none;
+}
 input[type=text] {
     width: 45%;
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #4BE4B8;
+    border: 2px solid #0fbcf9;
     padding: 2px;
 }
 /*INPUT TYPE NUMBER*/
@@ -344,7 +347,7 @@ input[type=number] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #4BE4B8;
+    border: 2px solid #0fbcf9;
     padding: 2px;
 }
 input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
@@ -360,7 +363,7 @@ input[type=email] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #4BE4B8;
+    border: 2px solid #0fbcf9;
     padding: 2px;
 }
 input[type=password] {
@@ -368,18 +371,18 @@ input[type=password] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #4BE4B8;
+    border: 2px solid #0fbcf9;
     padding: 2px;
 }
 input[type=submit] {
     color:white;
-    background: #51ACAF;
+    background: #02bb71;
     width: 20%;
-    margin: 10px auto;
+    margin: 15px auto;
     box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid rgb(207, 207, 207);
-    padding: 2px;
+    padding: 5px;
     cursor: pointer;
 }
 select{
@@ -388,12 +391,16 @@ select{
     margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #4BE4B8;
+    border: 2px solid #0fbcf9;
     padding: 2px;
 }
+
+select:focus{
+    outline: none;
+}
 #form-submit-btn{
-    margin-top: 5px;
-    background-color: #53B9BE;
+    margin-top: 10px;
+    background-color: #02bb71;
     color:white;
     text-decoration: none;
     padding: 10px 50px;
@@ -401,6 +408,10 @@ select{
     border-radius: 2px;
     cursor: pointer;
     padding: 10px;
+}
+
+#form-submit-btn:hover{
+    background-color: #069159;
 }
 #form-button-image{
     display: table-cell;
@@ -755,7 +766,7 @@ select{
         -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
         box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
    }
-    #group-enroll-title{
+    #group-enroll-title h1{
         text-align: center;
    }
     #group-form{
@@ -789,7 +800,7 @@ select{
         margin: 2px auto;
         box-sizing: border-box;
         border-radius: 5px;
-        border: 2px solid #4BE4B8;
+        border: 2px solid #0fbcf9;
         padding: 2px;
    }
    /*INPUT TYPE NUMBER*/
@@ -798,7 +809,7 @@ select{
         margin: 2px auto;
         box-sizing: border-box;
         border-radius: 5px;
-        border: 2px solid #4BE4B8;
+        border: 2px solid #0fbcf9;
         padding: 2px;
    }
     input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
@@ -814,7 +825,7 @@ select{
         margin: 2px auto;
         box-sizing: border-box;
         border-radius: 5px;
-        border: 2px solid #4BE4B8;
+        border: 2px solid #0fbcf9;
         padding: 2px;
    }
     input[type=password] {
@@ -822,12 +833,12 @@ select{
         margin: 2px auto;
         box-sizing: border-box;
         border-radius: 5px;
-        border: 2px solid #4BE4B8;
+        border: 2px solid #0fbcf9;
         padding: 2px;
    }
     input[type=submit] {
         color:white;
-        background: #51ACAF;
+        background: #05c46b;
         width: 20%;
         margin: 10px auto;
         box-sizing: border-box;
@@ -842,13 +853,13 @@ select{
         margin: 5px auto;
         box-sizing: border-box;
         border-radius: 5px;
-        border: 2px solid #4BE4B8;
+        border: 2px solid #0fbcf9;
         padding: 2px;
    }
     #form-submit-btn{
         margin-top: 5px;
         margin-bottom: 50px;
-        background-color: #53B9BE;
+        background-color: #05c46b;
         color:white;
         text-decoration: none;
         padding: 10px 50px;
@@ -1105,7 +1116,7 @@ select{
    }
     input[type=submit] {
         color:white;
-        background: #51ACAF;
+        background: #02bb71;
         width: 20%;
         margin: 10px auto;
         box-sizing: border-box;
