@@ -275,7 +275,7 @@ body{
 }
 .enroll-btn{
     display: inline-block;
-    background: #05c46b;
+    background: #02bb71;
     margin:0px 50px;
     width: 200px;
     height: 200px;
@@ -549,7 +549,7 @@ select:focus{
     .enroll-btn{
         display: inline-block;
         /* background: #54B9BF; */
-        background:#05c46b;
+        background:#02bb71;
         margin:0px 10px;
         width:140px;
         height: 140px;
@@ -576,7 +576,7 @@ select:focus{
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #05c46b;
+        background-color: #02bb71;
         margin: 6px 0;
         transition: 0.4s;
    }
@@ -678,7 +678,7 @@ select:focus{
    }
     .enroll-btn{
         display: inline-block;
-        background: #05c46b;
+        background: #02bb71;
         margin:0px 10px;
         width:140px;
         height: 140px;
@@ -705,7 +705,7 @@ select:focus{
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #05c46b;
+        background-color: #02bb71;
         margin: 6px 0;
         transition: 0.4s;
    }
@@ -746,7 +746,7 @@ select:focus{
    }
     .enroll-btn{
         display: inline-block;
-        background: #05c46b;
+        background: #02bb71;
         margin:0px 10px;
         width: 140px;
         height: 140px;
@@ -843,7 +843,7 @@ select:focus{
    }
     input[type=submit] {
         color:white;
-        background: #05c46b;
+        background: #02bb71;
         width: 20%;
         margin: 10px auto;
         box-sizing: border-box;
@@ -864,7 +864,8 @@ select:focus{
     #form-submit-btn{
         margin-top: 5px;
         margin-bottom: 50px;
-        background-color: #05c46b;
+        /* background-color: #05c46b; */
+        background-color: #02bb71;
         color:white;
         text-decoration: none;
         padding: 10px 50px;
@@ -954,7 +955,7 @@ select:focus{
    }
     .enroll-btn{
         display: inline-block;
-        background: #05c46b;
+        background: #02bb71;
         margin:0px 10px;
         width:120px !important;
         height: 120px !important;
@@ -981,7 +982,7 @@ select:focus{
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #05c46b;
+        background-color: #02bb71;
         margin: 6px 0;
         transition: 0.4s;
    }
@@ -1022,7 +1023,7 @@ select:focus{
    }
     .enroll-btn{
         display: inline-block;
-        background: #05c46b;
+        background: #02bb71;
         margin:0px 10px;
         width: 140px;
         height: 140px;

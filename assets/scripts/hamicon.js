@@ -14,7 +14,6 @@ function hamIcon(x) {
         document.getElementsByClassName('main-menu-items')[0].style.display = 'inline-block';
       }
     
-      console.log(y);
     
     }
 
