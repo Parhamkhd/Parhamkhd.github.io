@@ -33,18 +33,17 @@ header{
 }
 
 body{
-    background: url("../images/main-bg.png") 0px 0px repeat rgb(4, 21, 39);
-    background-position:0px -30px;
+    /* background: url("../images/main-bg.png") 0px 0px repeat rgb(4, 21, 39);
+    background-position:0px -30px; */
 }
 
 .landing-image{
     
-    background: url('../images/mainimage.jpeg') no-repeat center center fixed;
+    background: url('../images/bg5.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     
 }
 
@@ -117,11 +116,43 @@ body{
 /*Carousel*/
 
 .carousel{
-    height: 655px;
-    background-color:rgba(0, 0, 0, 0.5);
+    height: 430px;
+
+    background-color:rgba(0, 0, 0, 0.75);
 
 
 }
+
+
+.carousel-control.left, .carousel-control.right {
+    /* background-image:none !important;
+    filter:none !important; */
+
+ }
+
+ .carousel-control.left:hover, .carousel-control.right:hover{
+     
+ }
+
+
+ .carousel-control.left:active, .carousel-control.right:active{
+    color:black;
+
+ }
+
+ .carousel-control.left:focus, .carousel-control.right:focus{
+    color:none;
+
+ }
+
+.glyphicon:focus,.glyphicon:active{
+    color:black;
+}
+
+
+
+
+ 
 /*Carousel End*/
 .eventsGen{
     padding-top: 40px;
@@ -166,11 +197,11 @@ body{
 }
 .timer{
     text-align: center;
-    margin-top:60px;
+    margin-top:40px;
 }
 #timer-text{
     margin-top: 25px;
-    color: white;
+    color: black;
     font-size: 13px;
 }
 .clock{
@@ -180,12 +211,12 @@ body{
     display: inline-block;
 }
 .clock-part-title{
-    color: white;
+    color: black;
 }
 .dhm{
-    width: 80px;
-    height: 80px;
-    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
     border-radius: 4px;
     margin: 10px;
     display: inline-block;
@@ -195,10 +226,10 @@ body{
 .numz{
    /* color: #4BE4B8;
     */
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 /* .timer-buttom{
     color: white;
