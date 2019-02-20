@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TNB Club</title>
+    <link rel="shortcut icon" href="assets/images/iau.png">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="main-header-css">
+        <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
+
+        <!-- Hamburger icon HTML -->
+        <div class="ham-container " onclick="hamIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+        <nav class="main-menu-items">
+            <ul id="main-menu-ul">
+                <li class="main-menu-links"> <a href="index.html">خانه</a> </li>
+                <li class="main-menu-links"> <a href="projects.html">پروژه‌ها</a> </li>
+                <li class="main-menu-links"> <a href="about.html">درباره</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="main-content">
+
+        <h2 id="altpagestitle">راه‌های ارتباطی با ما</h2>
+
+        <h3 style="color:#13e413; text-align:right; padding-bottom:30px; direction:rtl;">
+          <center>
+          <span><img src="assets/images/whatsapp_PNG20.png" alt="whatsup-icon" width="100px" height="100px"></img></span>
+          گروه واتس‌آپ:
+          <span style="font-size:20px; color:black;">لطفا بارکد را اسکن کرده یا <a href= "https://chat.whatsapp.com/Ip4nW5fidoQ0BRL7daKajy"><u>اینجا</u></a> را کلیک کنید&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <span><img src="assets/images/qr.jpg" alt="QR_code" width="150px" height="150px" id="qr"></img></span>
+          </center>
+        </h3>
+
+        <h3 style="color:#13e413; text-align:right; padding-bottom:30px; direction:rtl;">
+          <center>
+          <span><img src="assets/images/email-icon.png" alt="email-icon" width="100px" height="100px"></img></span>
+          ایمیل پشتیبانی: &nbsp;
+          <span style="font-size:20px; color:black;"><a href="mailto:tnbclubofficial@gmail.com?Subject=Compatition%20Question" target="_top"">  tnbclubofficial@gmail.com </a></span>
+          </center>
+        </h3>
+
+    </main>
+
+    <!-- <div class="row">
+
+      <div class="col-sm-4">
+        <div class="footer-title">هدف مسابقه چیست؟
+          <img src="assets/images/target.png" width="50" height="50" alt=""></img>
+        </div>
+        <div class="footer-content"> این مسابقات با رویکرد شناخت و پرورش دانشجویان باانگیزه، توانمند و بااستعداد در زمینه‌های برنامه‌نویسی و طراحی الگوریتم توسط دانشکده مهندسی برق و کامپیوتر دانشگاه آزاد اسلامی واحد تهران شمال از اسفندماه 1397 برگزار می‌گردد.
+          <br> <u><a href="goal.html"> بیشتر بدانید </a></u>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="footer-title">درباره ما
+          <img src="assets/images/info.png" width="50" height="50" alt=""></img>
+        </div>
+        <div class="footer-content"> باشگاه برنامه‌نویسی دانشجویی تهران شمال (TNBClub) در دی‌ماه 1397 به همت استاد سید احسان زادخوش و چند تن از دانشجویان باانگیزه رشته کامپیوتر در این دانشکده تاسیس گردید؛ رویکرد این باشگاه، افزایش کار تیمی و تقویت روحیه همکاری بین دانشجویان و ایجاد انگیزه و حس رقابت در قالب مسابقات و رویدادهای مختلف برنامه‌نویسی و فیلدهای دیگر حوزه فناوری اطلاعات و کامپیوتر است.
+          <br> <u><a href="about.html"> بیشتر بدانید </a></u>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="footer-title">ارتباط با ما
+          <img src="assets/images/telephone.png" width="50" height="50" alt=""></img>
+        </div>
+        <div class="footer-content"> برای دریافت آخرین اخبار و اطلاعیه‌ها درمورد این دوره از مسابقات، با ما در ارتباط باشید.
+          <br><br>
+          <center>
+            <div class="connect-icn" id="whatsup-icn" onclick="location.href='https://chat.whatsapp.com/Ip4nW5fidoQ0BRL7daKajy'" onmouseover="addAnimation3()" onmouseleave="removeAnimation3()">
+              <img src="assets/images/whatsapp_PNG20.png" width="50" height="50" alt="whatsup-img" id="indie-img"></img>
+            </div>
+            <div class="connect-icn" id="email-icn" onclick="location.href='mailto:support@tnbclub.ir?Subject=Compatition%20Question'" onmouseover="addAnimation4()" onmouseleave="removeAnimation4()">
+              <img src="assets/images/email-icon.png" width="50" height="50" alt="email-img" id="indie-img"></img>
+            </div>
+          </center>
+        </div>
+      </div>
+
+    </div> -->
+
+    <footer class="navbar-fixed-bottom">
+        Copyright © 2019 TNBClub
+    </footer>
+
+    <script src="assets/scripts/hamicon.js"></script>
+</body>
+
+</html>
