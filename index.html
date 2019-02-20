@@ -13,33 +13,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
 
 
-    .footer-col{
-
-    display:flex;
-    background-color: none;
-    }
-
-
-.footer-col >div
-{
-    flex: 1;
-  background-color:yellow;
-  margin :20px;
-  padding:90px;
-  font-size:30px;
-  text-align: center;
-
-}
-
-</style>
 </head>
 
 <body id="landing">
 
-    <header class="main-header-css">
+    <header class="main-header-css" dir="rtl">
 
         <h1 id="logo"><a id="link-logo" href="index.html">TNB Club</a></h1>
 
@@ -115,6 +95,7 @@
 
 
                             </div>
+                            
                 </div>
             </div>
 
@@ -124,74 +105,121 @@
             <a class="right carousel-control" href="#carousel-example" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
+            
         </div>
 
     </main>
 
+
     <div class="timer-section">
 
-        <div class="timer">
-
-            <h4 id="timer-text">:مهلت باقی‌مانده برای ثبت نام</h4>
-
-            <div class="clock">
-
-                <div class="clock-part">
-                    <div class="dhm" id="days">
-
-                        <p class="numz" id="days-num"></p>
-
+            <div class="timer">
+    
+                <h4 id="timer-text">:مهلت باقی‌مانده برای ثبت نام</h4>
+    
+                <div class="clock">
+    
+                    <div class="clock-part">
+                        <div class="dhm" id="days">
+    
+                            <p class="numz" id="days-num"></p>
+    
+                        </div>
+                        <p class=clock-part-title>روز</p>
+    
                     </div>
-                    <p class=clock-part-title>روز</p>
-
-                </div>
-
-                <div class="clock-part">
-                    <div class="dhm" id="hours">
-
-                        <p class="numz" id="hours-num"></p>
-
+    
+                    <div class="clock-part">
+                        <div class="dhm" id="hours">
+    
+                            <p class="numz" id="hours-num"></p>
+    
+                        </div>
+    
+                        <p class=clock-part-title>ساعت</p>
                     </div>
-
-                    <p class=clock-part-title>ساعت</p>
-                </div>
-
-                <div class="clock-part">
-                    <div class="dhm" id="minutes">
-
-                        <p class="numz" id="minutes-num"></p>
-
+    
+                    <div class="clock-part">
+                        <div class="dhm" id="minutes">
+    
+                            <p class="numz" id="minutes-num"></p>
+    
+                        </div>
+                        <p class=clock-part-title>دقیقه</p>
+    
                     </div>
-                    <p class=clock-part-title>دقیقه</p>
-
-                </div>
-
-                <div class="clock-part">
-                    <div class="dhm" id="seconds">
-
-                        <p class="numz" id="seconds-num"></p>
-
+    
+                    <div class="clock-part">
+                        <div class="dhm" id="seconds">
+    
+                            <p class="numz" id="seconds-num"></p>
+    
+                        </div>
+                        <p class=clock-part-title>ثانیه</p>
+    
                     </div>
-                    <p class=clock-part-title>ثانیه</p>
-
                 </div>
+    
             </div>
-
         </div>
-    </div>
 
 
-<div class="footer-col">
-  <div class="footer-title1"> هدف ما چیست؟</div>
-  <div class="footer-title2">درباره ما  </div>
-  <div class="footer-title3">ارتباط با ما  </div>
- </div>
+
+        <div class="ex-box">
+                <div class="ex-content">
+                  <div class="ex-title"> نحوه شرکت در مسابقه </div>
+                  <div class="in-content">این تست شماره یک است</div>
+                </div>
+                <div class="ex-content">
+                  <div class="ex-title"> موارد مورد نیاز برای شرکت در مسابقه </div>
+                  <div class="in-content"> موارد مورد نیاز برای شرکت در مسابقه </div>
+                </div>
+                <div class="ex-content">
+                  <div class="ex-title"> زبان‌های مورد قبول </div>
+                  <div class="in-content">این تست شماره یک است</div>
+                </div>
+                <div class="ex-content">
+                  <div class="ex-title"> قوانین مسابقه </div>
+                  <div class="in-content">این تست شماره یک است</div>
+                </div>
+        </div>
 
 
+<div class="container-fluid">
+        <div class="row footer-content">
+
+                <div class="col-sm-4 footer-items">
+                  <h2 class="footer-title">ارتباط با ما</h2>
+                  <h3 class="footer-content"> برای آخرین اخبار و اطلاعیه‌ها با ما بروز باشید</h3>
+                  <img src="assets/images/whatsapp_PNG20.png" width="50" height="50" alt="whatsup-img"></img>
+                </div>
+          
+                <div class="col-sm-4 footer-items">
+                  <h2 class="footer-title">درباره ما</h2>
+                  <h3 class="footer-content"> درباره ما و این دوره از مسابقات</h3>
+                  <a href="about.html"> بیشتر بدانید </a>
+                </div>
+          
+                <div class="col-sm-4 footer-items">
+                  <h2 class="footer-title">هدف ما چیست ؟</h2>
+                  <h3 class="footer-content"> هدف ما شناخت افراد توانمند است</h3>
+                  <a href="goal.html"> بیشتر بدانید </a>
+
+                </div>
+          
+        </div>
+
+</div>
 
     <!-- <footer>
         Copyright © 2019 TNBClub
     </footer> -->
+
+    <footer>
+        Copyright © 2019 TNBClub
+    </footer>
+
+    
 
     <script src="assets/scripts/clock.js"></script>
     <script src="assets/scripts/hamicon.js"></script>
@@ -204,5 +232,4 @@
     </script>
 
 </body>
-
 </html>

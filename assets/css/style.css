@@ -2,6 +2,8 @@
     font-family: IRANSans;
     src: url('fonts/IRANSansWeb.ttf') 
 }
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,16 +12,105 @@
 }
 
 
-footer{
+
+/* added by team*/
+/* Added on 97/11/30 By Ava */
+/* .row{
+
+} */
+
+/* .col-sm-4{
+  padding-top: 5px;
+  padding-bottom: 30px;
+} */
+
+.footer-title{
+  color: #02ff00;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.footer-content{
+  color: #4BE4B8;
+  text-align: center;
+  /* text-align: right; */
+  font-size: 15px;
+  /* padding-right: 40px; */
+}
+
+
+/* footer{
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 100%;
+    background: black;
+    color: #4BE4B8;
+    text-align: center;
+    font-size: 15px;
+} */
+
+.footer-content{
+    margin-top: 50px;
+
+}
+
+.footer-items{
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+/*Addee by Ali on 97/11/30* edited by Parham*/
+.ex-box{
+  /* direction: rtl; */
+  background-color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ex-content{
+
+  /* padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 100px; */
+
+  margin-top: 50px;
+}
+
+.ex-title{
+  font-size: 30px;
+  color: #02ff00;
+  padding-bottom: 20px;
+}
+
+.in-content{
+  font-size: 15px;
+  color: black;
+}
+
+
+
+
+footer{
+    z-index:-9999;
+    left: 0;
     width: 100%;
     background: rgba(83, 83, 83 ,0.8);
     color: white;
     text-align: center;
     font-size: 10px;
+    bottom: 0;
+    width: 100%;
 }
+
+
+
+
+
+
+
 /* .landingimage{
     background: url('../images/mainimage.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -29,17 +120,20 @@ footer{
     
 } */
 header{
-    background: #FAFAFB;
 }
 
-body{
-    /* background: url("../images/main-bg.png") 0px 0px repeat rgb(4, 21, 39);
-    background-position:0px -30px; */
+#bg-image{
+    background: url('../images/bg4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
 
 .landing-image{
     
-    background: url('../images/bg5.jpg') no-repeat center center fixed;
+    background: url('../images/bg5.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +142,7 @@ body{
 }
 
 .main-header-css{
-    border-bottom: 2px solid grey;
+    background: white;
     -webkit-box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
     -moz-box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
     box-shadow: 0px 6px 25px -8px rgba(0,0,0,0.48);
@@ -67,6 +161,7 @@ body{
     color:black;
     font-size: 30px;
     font-weight: bold;
+
 }
 .main-menu-items{
     float: right;
@@ -85,10 +180,12 @@ body{
     padding-left: 15px;
 }
 #link-logo{
+    font-family: 'Fugaz One', cursive;
     text-decoration: none;
     color: black;
 }
 #link-logo:visited{
+
     color: black;
 }
 .main-menu-links a {
@@ -109,24 +206,24 @@ body{
 
     text-align: center;
     display: block;
-    width: 100%;
+    /* width: 100%; */
 
 }
 
 /*Carousel*/
 
 .carousel{
-    height: 430px;
+    height: 500px;
 
     background-color:rgba(0, 0, 0, 0.75);
 
 
 }
-
+/*
 
 .carousel-control.left, .carousel-control.right {
-    /* background-image:none !important;
-    filter:none !important; */
+    background-image:none !important;
+    filter:none !important;
 
  }
 
@@ -149,7 +246,7 @@ body{
     color:black;
 }
 
-
+*/
 
 
  
@@ -197,15 +294,15 @@ body{
 }
 .timer{
     text-align: center;
-    margin-top:40px;
+    margin-top:0px;
 }
 #timer-text{
-    margin-top: 25px;
+    margin-top: 10px;
     color: black;
     font-size: 13px;
 }
 .clock{
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .clock-part{
     display: inline-block;
@@ -214,8 +311,8 @@ body{
     color: black;
 }
 .dhm{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 2px solid black;
     border-radius: 4px;
     margin: 10px;
@@ -229,7 +326,7 @@ body{
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 /* .timer-buttom{
     color: white;
@@ -291,12 +388,12 @@ body{
     font-family: IRANSans;
     text-align: center;
     font-weight: 600;
-    color: #ffffff;
+    color: rgb(28, 206, 67);
 }
 #enroll-text{
     padding-bottom: 50px;
     text-align: center;
-    color: #ffffff;
+    color: white;
 }
 .main-enroll{
     margin-top: 100px;
@@ -320,12 +417,12 @@ body{
 }
 /*enrolling forms*/
 .group-enroll{
-    background: white;
+    background:white;
     width: 40%;
     margin: 10px auto;
     height: 600px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
     -webkit-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
     box-shadow: 1px 15px 51px -11px rgba(0,0,0,0.75);
@@ -369,7 +466,7 @@ input[type=text] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #0fbcf9;
+    border: 1.5px solid #0fbcf9;
     padding: 2px;
 }
 /*INPUT TYPE NUMBER*/
@@ -378,7 +475,7 @@ input[type=number] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #0fbcf9;
+    border: 1.5px solid #0fbcf9;
     padding: 2px;
 }
 input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
@@ -394,7 +491,7 @@ input[type=email] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #0fbcf9;
+    border: 1.5px solid #0fbcf9;
     padding: 2px;
 }
 input[type=password] {
@@ -402,7 +499,7 @@ input[type=password] {
     margin: 2px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #0fbcf9;
+    border: 1.5px solid #0fbcf9;
     padding: 2px;
 }
 
@@ -413,7 +510,7 @@ input[type=submit] {
     margin: 15px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 1px solid rgb(207, 207, 207);
+    border: 1.5px solid rgb(207, 207, 207);
     padding: 5px;
     cursor: pointer;
 }
@@ -422,13 +519,15 @@ input[type=submit]:hover{
 }
 
 select{
+
     display: block;
     width: 45%;
     margin: 5px auto;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid #0fbcf9;
+    border: 1.5px solid #0fbcf9;
     padding: 2px;
+
 }
 
 select:focus{
@@ -549,7 +648,7 @@ select:focus{
         display: block;
         width: 70px;
         height: 70px;
-        border: 2px solid white;
+        border: 2px solid black;
         border-radius: 4px;
         margin: 10px;
         color: white;
@@ -675,7 +774,7 @@ select:focus{
         display: block;
         width: 61px;
         height: 70px;
-        border: 2px solid white;
+        border: 2px solid black;
         border-radius: 4px;
         margin: 5px;
         color: white;
@@ -952,7 +1051,7 @@ select:focus{
         display: block;
         width: 55px;
         height: 70px;
-        border: 2px solid white;
+        border: 2px solid black;
         border-radius: 4px;
         margin: 5px;
         color: white;
